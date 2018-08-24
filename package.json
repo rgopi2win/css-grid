@@ -1,0 +1,14 @@
+{
+  "name": "CSS-Grid-Explorer",
+  "version": "1.0.1",
+  "description": "To explore the CSS Grid properties to build UI application",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Gopinath Rajendiran",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
