@@ -21,9 +21,10 @@ We can name the grid lines using name in `grid-template-rows` or `grid-template-
 `grid-rows` `grid-columns` - To mention how much element can occupy space.
 
     eg.1, grid-rows: 2 / -1 - this syntax the element occupy from row 2 to till the end.
+    -1 implies till the end. This is useful when we are not sure of no of rows.
 
     eg.2, grid-column: 2 / span2 - it means the element occupies from row 2 till row 4 (span 2 = 2 rows).
-    
+        
     eg.3, grid-columns: col-2-start / col-3-end
 
 `min-content`
